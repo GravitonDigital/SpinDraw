@@ -1,21 +1,8 @@
-# Phaser + ES6 + Webpack.
-#### A bootstrap project to create games with Phaser + ES6 + Webpack.
-
-![Phaser+ES6+Webpack](https://raw.githubusercontent.com/lean/phaser-es6-webpack/master/assets/images/phaser-es6-webpack.jpg)
-
-[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
-
-
-## Features
-- ESLINT with JavaScript Standard Style configuration
-- Next generation of Javascript
-- Webpack ready
-- Multiple browser testing
-- WebFont Loader
-
+# Spin Draw
+#### Spinning disk where you can hold down the mouse to draw circles(or weird shapes if you feel like it) in different colors and weights.
 
 # Setup
-To use this bootstrap you’ll need to install a few things before you have a working copy of the project.
+To use this repo you’ll need to install a few things before you have a working copy of the project.
 
 ## 1. Clone this repo:
 
@@ -23,7 +10,7 @@ Navigate into your workspace directory.
 
 Run:
 
-```git clone https://github.com/lean/phaser-es6-webpack.git```
+```git clone https://github.com/GravitonDigital/SpinDraw```
 
 ## 2. Install node.js and npm:
 
@@ -61,9 +48,5 @@ Run:
 
 This will optimize and minimize the compiled bundle.
 
-## Credits
-Big thanks to this great repos:
-
-https://github.com/belohlavek/phaser-es6-boilerplate
-
-https://github.com/cstuncsik/phaser-es6-demo
+## Original Boilerplate:
+https://github.com/lean/phaser-es6-webpack/
