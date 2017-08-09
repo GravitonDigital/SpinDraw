@@ -1,6 +1,8 @@
 # Spin Draw
 #### Spinning disk where you can hold down the mouse to draw circles(or weird shapes if you feel like it) in different colors and weights.
 
+Demo: http://gravitondigital.com/media/projects/spindraw/
+
 # Setup
 To use this repo you’ll need to install a few things before you have a working copy of the project.
 
