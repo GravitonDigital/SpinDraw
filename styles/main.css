@@ -20,7 +20,7 @@ iframe {
     background-color: #111;
 }
 
-#download-button{
+.button{
     background-color: #ccc;
     border: 1px solid black;
     border-radius: 8px;

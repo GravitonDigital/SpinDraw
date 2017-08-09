@@ -37,6 +37,11 @@ export default class extends Phaser.State {
       base64png = base64png.replace(/^data:image\/[^;]*/, 'data:application/octet-stream');
       downloadButton.href = base64png;
     }, false);
+
+    let clearButton = document.getElementById("clear-button")
+    clearButton.addEventListener('click', () => {
+      this.drawing.clear();
+    }, false);
   }
 
   draw() {

@@ -81,11 +81,18 @@ class Game extends Phaser.Game {
 
     //download
     let downloadButton = document.createElement('a');
-    backgroundColorPicker.className += 'download-button';
+    downloadButton.className += 'button';
     downloadButton.innerText = 'Download as PNG';
     downloadButton.setAttribute('id', 'download-button');
     downloadButton.setAttribute('download', 'SpinDraw.png');
     content.appendChild(downloadButton);
+
+    //clear
+    let clearButton = document.createElement('a');
+    clearButton.className += 'button';
+    clearButton.innerText = 'Clear';
+    clearButton.setAttribute('id', 'clear-button');
+    content.appendChild(clearButton);
   }
 }
 
