@@ -1,0 +1,9 @@
+export default {
+  GAMEHEIGHT: 600,
+  GAMEWIDTH: 600,
+  LOCALSTORAGENAME: 'spindraw',
+  TITLE: 'Spin Draw',
+  DISKWIDTH_RADIUS: 300,
+  DISKHEIGHT_RADIUS: 300,
+  DISKCOLOR: 0xffffff
+}
